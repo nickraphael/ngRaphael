@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+<p-dataList [value]="entries" [paginator]="true" [rows]="5" [paginatorPosition]="both">
+  <template let-entry>
+    <div class="content">
+      <a class="header">{{entry.resolved_title}}</a>
+    </div>
+  </template>
+</p-dataList>

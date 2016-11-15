@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  entries = [
+    { resolved_url: "sdf", resolved_title: "q"},
+    { resolved_url: "sdf", resolved_title: "1"}
+  ];
 }
